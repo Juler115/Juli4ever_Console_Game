@@ -16,7 +16,7 @@
 #include <chrono> 
 #include <codecvt>
 
-extern map<string,string> Datos;
+extern map<string,string> Datos;	
 extern vector<string>DatMusic;
 extern bool Usados[5];
 extern Julieta Juli;
