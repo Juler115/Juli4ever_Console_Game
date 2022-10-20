@@ -142,6 +142,7 @@
     <ClCompile Include="Gustar.cpp" />
     <ClCompile Include="Musica.cpp" />
     <ClCompile Include="Jugar.cpp" />
+    <ClCompile Include="Vacas y toros.cpp" />
     <ClCompile Include="Threats.cpp" />
   </ItemGroup>
   <ItemGroup>

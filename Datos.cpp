@@ -52,8 +52,8 @@ void Act()
         Datos[datos] = aux;
         if (datos == "Cumple")Usados[1] = true;
         else if(datos == "FavComi")Usados[2] = true;
-        else if (datos == "FavPasat ")Usados[3] = true;
-        else if (datos == "Aspiraciones ")Usados[4] = true;
+        else if (datos == "FavPasat")Usados[3] = true;
+        else if (datos == "Aspiraciones")Usados[4] = true;
     }
     leer.close();
     Juli.AcAf(stoi(Datos["Afecto"]));

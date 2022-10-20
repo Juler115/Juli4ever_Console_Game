@@ -51,3 +51,4 @@ void CAAfecto();
 void JuMusica(int);
 void Jugar();
 void JugarOp(int);
+void TyV();

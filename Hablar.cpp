@@ -8,10 +8,10 @@ void Hablar()
 		{
 			Act();
 			cout << "De que te gustaria hablar ahora ?\n";
-			cout << "1. Quien eres?\n";
+			cout << "1. Preguntar\n";
 			cout << "2. Quiero que me conozcas\n";
-			cout << "3. Otros\n";
-			cout << "4. Cambie en algo\n";
+			cout << "3. Me siento...\n";
+			cout << "4. Te quiero decir...\n";
 			cout << "5. Me gustas\n";
 			cout << "6. Volver\n";
 			cin >> selec;

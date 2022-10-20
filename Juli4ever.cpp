@@ -44,8 +44,8 @@ int main()
 	int selec;
 	do
 	{
-		thread hilo{ musica };
-		hilo.detach();
+		//thread hilo{ musica };
+		//hilo.detach();
 		cout << "Que te gustaria hacer ?\n";
 		cout << "1. Hablar\n";
 		cout << "2. Jugar\n";
