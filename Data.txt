@@ -1,6 +1,7 @@
-Nombre Erwin
-Afecto 0
-Cumple 29/01/2003
+
+Afecto 4
 Aspiraciones crear a juli
-FavPasat Leer
+Cumple 29/03/2003
 FavComi Palomitas
+FavPasat Leer
+Nombre Erwin

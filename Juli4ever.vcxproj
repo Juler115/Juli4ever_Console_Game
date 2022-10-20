@@ -141,6 +141,7 @@
     <ClCompile Include="Cambio.cpp" />
     <ClCompile Include="Gustar.cpp" />
     <ClCompile Include="Musica.cpp" />
+    <ClCompile Include="Jugar.cpp" />
     <ClCompile Include="Threats.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +153,7 @@
     <Text Include="Music.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\..\Downloads\Snake.exe" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

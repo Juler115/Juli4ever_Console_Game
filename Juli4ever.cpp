@@ -6,7 +6,7 @@ void Opciones(int selec)
 	switch (selec)
 	{
 	case 1: system("cls"),Hablar(); break;
-	case 2: cout << "Jugar\n"; break;
+	case 2: system("cls"), Jugar(); break;
 	case 3: system("cls"), Musica(); break;
 	case 4: cout << "Cuidate espero verte pronto, Siempre estare aqui :3\n"; break;
 	default: "Lo siento no comprendi lo que deseas, puedes ingresarlo nuevamente\n";
@@ -16,6 +16,7 @@ void Opciones(int selec)
 
 int main()
 {
+	system("color F");
 	try {
 
 		if (!check())

@@ -4,7 +4,7 @@ void Musica() {
 	int selec;
 	do
 	{
-		cout << "Es hora de la musica, dime que te gustaria escuchar ?\n";
+		cout << "Dime que te gustaria escuchar ?\n";
 		for (int i = 0; i < DatMusic.size(); i++)
 		{
 			cout << i << ". " << DatMusic[i]<<"\n";
@@ -12,8 +12,11 @@ void Musica() {
 		cout << DatMusic.size() << ". " << "Regresar\n";
 		cin >> selec;
 		system("cls");
-		if(selec!= DatMusic.size())Music(DatMusic[selec]);
+		if (selec < DatMusic.size())Music(DatMusic[selec]);
+		else cout << "Ingrese porfavor un numero valido\n";
+	
 	} while (selec != DatMusic.size());
+	system("cls");
 }
 void JuMusica(int selec) {
 	try {

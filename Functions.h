@@ -49,3 +49,5 @@ void Gustar();
 void Musica();
 void CAAfecto();
 void JuMusica(int);
+void Jugar();
+void JugarOp(int);
