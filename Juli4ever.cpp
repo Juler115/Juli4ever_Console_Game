@@ -8,9 +8,7 @@ void Opciones(int selec)
 	case 1: system("cls"),Hablar(); break;
 	case 2: system("cls"), Jugar(); break;
 	case 3: system("cls"), Musica(); break;
-	case 4: cout << "Cuidate espero verte pronto, Siempre estare aqui :3\n"; break;
-	default: "Lo siento no comprendi lo que deseas, puedes ingresarlo nuevamente\n";
-		break;
+	case 4: cout << "\nCuidate espero verte pronto, Siempre estare aqui :3\n"; break;
 	}
 }
 
@@ -22,7 +20,8 @@ int main()
 		if (!check())
 		{
 			Act();
-			cout << "Hola " << Datos["Nombre"] << " Mi nombre es Juli espero que pasemos un buen rato juntos\n";
+			system("cls");
+			cout << "Hola" << Datos["Nombre"] << " mi nombre es Juli espero que pasemos un buen rato juntos\n";
 			cout << "Podemos hacer lo que desees elige algo que te interese hacer\n";
 		}
 		else
@@ -39,13 +38,14 @@ int main()
 			Juli.ActNombre("Julieta");
 	}
 	catch(...) {
-		cout << "Hubo un error al crear a Juli, revise el archivo Juli.h";
+
+		cout << "Hubo un error al crear a Juli, revise el archivo Juli.h"; return 0;
 	}
 	int selec;
 	do
 	{
-		//thread hilo{ musica };
-		//hilo.detach();
+		thread hilo{ musica };
+		hilo.detach();
 		cout << "Que te gustaria hacer ?\n";
 		cout << "1. Hablar\n";
 		cout << "2. Jugar\n";

@@ -13,40 +13,67 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de origen\Hablar">
+      <UniqueIdentifier>{d879ea84-de6f-46b4-992a-fa1492aedb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Jugar">
+      <UniqueIdentifier>{5f9430a7-b507-4769-a80d-51bc90ddc7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Musica">
+      <UniqueIdentifier>{00305eac-1430-492a-817d-0e9fc07dadf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Utiles">
+      <UniqueIdentifier>{51a85288-48cd-4477-9692-60c7654ccc16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Juli4ever.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Greetings.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Hablar.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="Conocer.cpp">
+      <Filter>Archivos de origen\Hablar</Filter>
     </ClCompile>
     <ClCompile Include="Datos.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="Conocer.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Utiles</Filter>
     </ClCompile>
     <ClCompile Include="Cambio.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Hablar</Filter>
     </ClCompile>
-    <ClCompile Include="Threats.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="Greetings.cpp">
+      <Filter>Archivos de origen\Utiles</Filter>
     </ClCompile>
     <ClCompile Include="Gustar.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Hablar</Filter>
     </ClCompile>
-    <ClCompile Include="Musica.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="Hablar.cpp">
+      <Filter>Archivos de origen\Hablar</Filter>
     </ClCompile>
     <ClCompile Include="Jugar.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Jugar</Filter>
+    </ClCompile>
+    <ClCompile Include="Musica.cpp">
+      <Filter>Archivos de origen\Musica</Filter>
+    </ClCompile>
+    <ClCompile Include="Preguntar.cpp">
+      <Filter>Archivos de origen\Hablar</Filter>
+    </ClCompile>
+    <ClCompile Include="Preguntas.cpp">
+      <Filter>Archivos de origen\Hablar</Filter>
+    </ClCompile>
+    <ClCompile Include="Siento.cpp">
+      <Filter>Archivos de origen\Hablar</Filter>
+    </ClCompile>
+    <ClCompile Include="Threats.cpp">
+      <Filter>Archivos de origen\Utiles</Filter>
     </ClCompile>
     <ClCompile Include="Vacas y toros.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Jugar</Filter>
+    </ClCompile>
+    <ClCompile Include="Sentimientos.cpp">
+      <Filter>Archivos de origen\Hablar</Filter>
+    </ClCompile>
+    <ClCompile Include="Decir.cpp">
+      <Filter>Archivos de origen\Hablar</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -142,6 +142,11 @@
     <ClCompile Include="Gustar.cpp" />
     <ClCompile Include="Musica.cpp" />
     <ClCompile Include="Jugar.cpp" />
+    <ClCompile Include="Preguntar.cpp" />
+    <ClCompile Include="Preguntas.cpp" />
+    <ClCompile Include="Siento.cpp" />
+    <ClCompile Include="Sentimientos.cpp" />
+    <ClCompile Include="Decir.cpp" />
     <ClCompile Include="Vacas y toros.cpp" />
     <ClCompile Include="Threats.cpp" />
   </ItemGroup>

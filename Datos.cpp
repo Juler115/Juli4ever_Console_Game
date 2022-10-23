@@ -8,6 +8,8 @@ bool check()
     if (infile.good())
     {
         Act();
+        Juli.AcAf(stoi(Datos["Afecto"]));
+        Juli.ActRel(stoi(Datos["Relacion"]));
         ifstream leer;
         leer.open("Music.txt", ios::in);
         string Mus;
@@ -29,6 +31,7 @@ bool check()
         data.open("Data.txt", ios::app);
         data << "Nombre " << nombre;
         data << "\nAfecto " << 0;
+        data << "\nRelacion " << 0;
         data.close();
         return 0;
     }
@@ -56,7 +59,6 @@ void Act()
         else if (datos == "Aspiraciones")Usados[4] = true;
     }
     leer.close();
-    Juli.AcAf(stoi(Datos["Afecto"]));
 }
 void Modi(string tipo, string info)
 {
@@ -65,6 +67,7 @@ void Modi(string tipo, string info)
     modi.open("Data.txt", ios::trunc);
     for (auto& a : Datos)
     {
+        if (a.second == "")continue;
         if (a.first==tipo)
         {
             modi<<"\n" << tipo <<" " << info;
@@ -73,5 +76,4 @@ void Modi(string tipo, string info)
             modi <<"\n" << a.first << a.second;
         }
     }
-
 }

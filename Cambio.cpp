@@ -4,28 +4,32 @@ void Cambi(int x)
 {
 	switch (x)
 	{
-	case 1: CACumple(); break;
-	case 2: CAFavComi(); break;
-	case 3: CAFavPasat(); break;
-	case 4: CAAspiraciones(); break;
+    case 1: CACumple(); cout << "\n"; break;
+	case 2: CAFavComi(); cout << "\n"; break;
+	case 3: CAFavPasat(); cout << "\n"; break;
+	case 4: CAAspiraciones(); cout << "\n"; break;
 	}
 }
 
 void Cambio()
 {
 	int selec;
-	do
-	{
-		cout << " Que deseas cambiar sobre ti ?\n";
-		cout << "1. Fecha de nacimiento\n";
-		cout << "2. Comida favorita\n";
-		cout << "3. Pasatiempo Favorito\n";
-		cout << "4. Aspiraciones\n";
-		cout << "5. Salir\n";
-		cin >> selec;
-		system("cls");
-		Cambi(selec);
-	} while (selec != 5);
+    if (Datos["Cumple"] == "" || Datos["FavComi"] == "" || Datos["FavPasat"] == "" || Datos["Aspiraciones"] == "")
+        cout << "Lo siento, aun no te conozco lo suficiente\n\n";
+    else {
+        do
+        {
+            cout << " Que deseas cambiar sobre ti ?\n";
+            cout << "1. Fecha de nacimiento\n";
+            cout << "2. Comida favorita\n";
+            cout << "3. Pasatiempo Favorito\n";
+            cout << "4. Aspiraciones\n";
+            cout << "5. Salir\n";
+            cin >> selec;
+            system("cls");
+            Cambi(selec);
+        } while (selec != 5);
+    }
 
 }
 void CACumple()

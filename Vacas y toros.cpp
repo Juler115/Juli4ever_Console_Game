@@ -10,7 +10,7 @@ void clean() {
 
 void TyV()
 {
-	int num = 12345;//rand() % 999999;
+	int num = rand() % 999999;
 	string pienso = to_string(num);
 	string adiv;
 	cout << "Juguemos vacas y toros, yo pienso en un numero y tu trataras de adivinarlo\n";
@@ -20,11 +20,11 @@ void TyV()
 		cout << "Si deseas volver ingresa el numero -1\n";
 		cout << "Ingresa tu prediccion de 5 digitos\n";
 		cin >> adiv;
-		if (adiv == to_string(-111111)) return;
+		if (adiv == to_string(-1)) return;
 		clean();
-		for (int i = 0; i < 6; i++)
+		for (int i = 0; i < adiv.size(); i++)
 		{
-			for (int j = 0; j < 6; j++)
+			for (int j = 0; j < pienso.size(); j++)
 			{
 				if (adiv[i] == pienso[j] && i==j)
 				{
@@ -44,5 +44,5 @@ void TyV()
 		cout << "\n";
 	} while (pienso != adiv);
 	cout << "Felicidades acertaste :3";
-	Sleep(5000);
+	Sleep(3000);
 }

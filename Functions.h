@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <fstream>
 #include <cstdlib>
-#include<ctime>
+#include <ctime>
 #include "Juli.h"
 #include <Windows.h>
 #include <mmsystem.h>
@@ -17,6 +17,7 @@
 #include <codecvt>
 
 extern map<string,string> Datos;	
+extern vector<string>DatMusic;
 extern vector<string>DatMusic;
 extern bool Usados[5];
 extern Julieta Juli;
@@ -52,3 +53,19 @@ void JuMusica(int);
 void Jugar();
 void JugarOp(int);
 void TyV();
+void Preguntar();
+void Preguntas(int);
+string Eres();
+string Sirves();
+string Pensamientos();
+string Nosotros();
+string Mi();
+void Siento();
+void SientoOp(int);
+string Enojado();
+string Triste();
+string Feliz();
+string Aburrido();
+string Nervioso();
+void Decir();
+void DecirOp(int);

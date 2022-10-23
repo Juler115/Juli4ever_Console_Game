@@ -75,7 +75,7 @@ public:
 	}
 	void AcAf(int n)
 	{
-		this->afecto+=n;
+		this->afecto=n;
 	}
 	void ActRel(bool n)
 	{
