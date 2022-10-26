@@ -13,6 +13,7 @@ void Cambi(int x)
 
 void Cambio()
 {
+
 	int selec;
     if (Datos["Cumple"] == "" || Datos["FavComi"] == "" || Datos["FavPasat"] == "" || Datos["Aspiraciones"] == "")
         cout << "Lo siento, aun no te conozco lo suficiente\n\n";
