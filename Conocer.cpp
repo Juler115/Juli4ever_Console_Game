@@ -6,7 +6,7 @@ void Conocer()
     int x;
     srand(time(NULL));
     if (Datos["Cumple"] != "" && Datos["FavComi"] != "" && Datos["FavPasat"] != "" && Datos["Aspiraciones"] != "")
-        cout << "Conozco suficiente de ti por ahora, te parece si hacemos otra cosa ?\n";
+        cout << "Conozco suficiente de ti por ahora, te parece si hacemos otra cosa ?\n\n";
     else {
         cout << "Ok, es mi turno de preguntar entonces\n";
         do {
@@ -19,7 +19,6 @@ void Conocer()
         case 3: FavPasat(); Usados[x] = true; break;
         case 4: Aspiraciones(); Usados[x] = true; break;
         }
-        Modi("Afecto", to_string(Juli.Afecto()));
     }
 }
 void Cumple()

@@ -2,7 +2,7 @@
 
 void Gustar()
 {
-	stopMusic();
+	Music("My Feelings");
 	if (Juli.Relacion() == false) {
 		cout << "De verdad, yo tambien he pensado lo mismo \n\n";
 		system("Corazon.png");
@@ -12,5 +12,6 @@ void Gustar()
 	}
 	else {
 		cout << "A mi tambien me sigues gustando \n";
+		Juli.Afs();
 	}
 }

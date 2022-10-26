@@ -1,6 +1,6 @@
 #include "Functions.h"
 Julieta Juli("1", "2", "3");
-
+string basura;
 void Opciones(int selec)
 {
 	switch (selec)
@@ -8,7 +8,7 @@ void Opciones(int selec)
 	case 1: system("cls"),Hablar(); break;
 	case 2: system("cls"), Jugar(); break;
 	case 3: system("cls"), Musica(); break;
-	case 4: cout << "\nCuidate espero verte pronto, Siempre estare aqui :3\n"; break;
+	case 4: cout << "\nCuidate espero verte pronto, Siempre estare aqui :3\n"; ACF(); break;
 	}
 }
 
@@ -41,7 +41,7 @@ int main()
 
 		cout << "Hubo un error al crear a Juli, revise el archivo Juli.h"; return 0;
 	}
-	int selec;
+	int selec=0;
 	do
 	{
 		thread hilo{ musica };
@@ -51,6 +51,7 @@ int main()
 		cout << "2. Jugar\n";
 		cout << "3. Musica\n";
 		cout << "4. Salir\n";
+		SetCursorPos(100, 100);
 		cin >> selec;
 		system("cls");
 		Opciones(selec);

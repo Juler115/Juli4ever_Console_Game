@@ -14,4 +14,5 @@ string Nosotros(){
 }
 string Mi() {
 	return "Me encanta leer, mis libros favoritos son de historia y estrategia en general.\n";
+	system("pause");
 }

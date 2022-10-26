@@ -19,10 +19,10 @@
 extern map<string,string> Datos;	
 extern vector<string>DatMusic;
 extern vector<string>DatMusic;
+extern string basura;
 extern bool Usados[5];
 extern Julieta Juli;
 extern thread hilo;
-extern thread hilo2;
 
 void Act();
 bool check();
@@ -69,3 +69,5 @@ string Aburrido();
 string Nervioso();
 void Decir();
 void DecirOp(int);
+void DecirOp2(int);
+void ACF();

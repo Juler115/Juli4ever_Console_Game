@@ -3,6 +3,7 @@
 void Jugar()
 {
 	int selec;
+	Music("ZZ Top  La Grange");
 	do
 	{
 		cout << "Que quieres jugar ahora ?\n";

@@ -77,3 +77,7 @@ void Modi(string tipo, string info)
         }
     }
 }
+void ACF()
+{
+    Modi("Afecto", to_string(Juli.Afecto()));
+}
