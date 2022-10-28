@@ -1,5 +1,5 @@
 
-Afecto 0
+Afecto -1
 Cumple 29/01/2003
 Nombre Erwin
 Relacion 1

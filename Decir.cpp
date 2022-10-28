@@ -50,7 +50,7 @@ void DecirOp(int selec)
 		stopMusic();
 		if (Juli.Afecto() < 0)
 		{
-			cout << "No quiero que me hables\n"; ACF(); exit(EXIT_FAILURE);
+			cout << "No quiero que me hables\n"; ACF(); Sleep(2000); exit(EXIT_FAILURE);
 		}
 		cout << "Eso no es muy lindo" << Datos["Nombre"]<<" >:c\n\n";
 		Juli.Afb();
@@ -71,7 +71,7 @@ void DecirOp2(int selec)
 		stopMusic();
 		if (Juli.Afecto() < 0)
 		{
-			cout << "No quiero que me hables\n"; ACF(); exit(EXIT_FAILURE);
+			cout << "No quiero que me hables\n"; ACF(); Sleep(2000); exit(EXIT_FAILURE);
 		}
 		cout << "Eso no es muy lindo" << Datos["Nombre"] << " >:c\n\n";
 		Juli.Afb();
